@@ -40,14 +40,6 @@ const links = [
     img: require('../public/assets/github.webp'),
   },
 
-  {
-    id: 6,
-    name: 'Journey into the Past: Previous Website',
-    about:
-      'Explore our historical achievements by visiting our previous website.',
-    url: 'https://dscpesu.github.io/DSC-PESU/',
-    img: require('../public/assets/website.webp'),
-  },
 ];
 
 export default links;
