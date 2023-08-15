@@ -10,22 +10,51 @@ export default function Home() {
     <>
       <Head>
         <title>GDSC PESU RR</title>
-        <meta name="title" content="GDSC PESU RR" />
+        <meta name="title" content="GDSC PESU RR - Join Us!" />
         <meta name="author" content="GDSC PESU RR" />
-        <meta name="description" content="GDSC PESU RR" />
-        <meta name="keywords" content=" " />
-        <link rel="canonical" href="" />
+        <meta
+          name="description"
+          content="Join GDSC PESU RR and explore the world of technology. We're a community passionate about learning, sharing, and innovating."
+        />
+        <meta
+          name="keywords"
+          content="GDSC, PESU RR, technology, community, learning, innovation, programming"
+        />
+        <link
+          rel="canonical"
+          href="https://gdsc-pes-links.vercel.app/GDSC_card.webp"
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="" />
-        <meta property="og:title" content="GDSC PESU RR" />
-        <meta property="og:description" content="GDSC PESU RR" />
-        <meta property="og:image" content="./GDSC_card.webp" />
+        <meta property="og:url" content="https://gdsc-pes-links.vercel.app/" />
+        <meta property="og:title" content="GDSC PESU RR - Join Us!" />
+        <meta
+          property="og:description"
+          content="Join GDSC PESU RR and explore the world of technology. We're a community passionate about learning, sharing, and innovating."
+        />
+        <meta
+          property="og:image"
+          content="https://gdsc-pes-links.vercel.app/GDSC_card.webp"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="" />
-        <meta property="twitter:title" content="GDSC PESU RR" />
-        <meta property="twitter:description" content="GDSC PESU RR" />
-        <meta property="twitter:image" content="./GDSC_card.webp" />
+        <meta
+          property="twitter:url"
+          content="https://gdsc-pes-links.vercel.app/"
+        />
+        <meta property="twitter:title" content="GDSC PESU RR - Join Us!" />
+        <meta
+          property="twitter:description"
+          content="Join GDSC PESU RR and explore the world of technology. We're a community passionate about learning, sharing, and innovating."
+        />
+        <meta
+          property="twitter:image"
+          content="https://gdsc-pes-links.vercel.app/GDSC_card.webp"
+        />
+
+        <meta
+          name="recruitment"
+          content="GDSC PESU RR is recruiting tech enthusiasts! If you're passionate about technology and want to be a part of a vibrant community, join us on this exciting journey. Visit our website for more information."
+        />
       </Head>
       <nav className="navbar navbar-expand-lg my-3">
         <div className="content container">
@@ -43,6 +72,34 @@ export default function Home() {
 
       <main className="mt-4">
         <div className="content container">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-8 col-12">
+              {/* Heading for Recruitments */}
+              <h2 className="text-center mb-4">Recruitments</h2>
+              <p className="text-center">
+                We are excited to announce that GDSC PESU RR is starting its
+                recruitments! If you&apos;re passionate about technology and
+                want to join our vibrant community, don&apos;t miss this
+                opportunity. Fill out the form by <strong>18th August</strong>{' '}
+                to apply.
+              </p>
+              <p className="text-center">
+                Follow us on social media and join the WhatsApp community group
+                as <br></br> we&rsquo;ll be communicating the results there. All
+                the best!
+              </p>
+              <div className="text-center">
+                {/* Button for the recruitment form */}
+                <a
+                  href="https://forms.gle/DBpxkxZPwDvoUMg68"
+                  className="btn btn-success"
+                >
+                  Fill out the Recruitment Form
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="row">
             {links.map((item) => {
               return (
