@@ -80,7 +80,7 @@ export default function Home() {
                 We are excited to announce that GDSC PESU RR is starting its
                 recruitments! If you&apos;re passionate about technology and
                 want to join our vibrant community, don&apos;t miss this
-                opportunity. Fill out the form by <strong>18th August</strong>{' '}
+                opportunity. Fill out the form by <strong>20th August</strong>{' '}
                 to apply.
               </p>
               <p className="text-center">
