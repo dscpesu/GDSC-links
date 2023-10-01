@@ -71,35 +71,6 @@ export default function Home() {
       </nav>
 
       <main className="mt-4">
-        <div className="content container">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-md-8 col-12">
-              {/* Heading for Recruitments */}
-              <h2 className="text-center mb-4">Recruitments</h2>
-              <p className="text-center">
-                We are excited to announce that GDSC PESU RR is starting its
-                recruitments! If you&apos;re passionate about technology and
-                want to join our vibrant community, don&apos;t miss this
-                opportunity. Fill out the form by <strong>20th August</strong>{' '}
-                to apply.
-              </p>
-              <p className="text-center">
-                Follow us on social media and join the WhatsApp community group
-                as <br></br> we&rsquo;ll be communicating the results there. All
-                the best!
-              </p>
-              <div className="text-center">
-                {/* Button for the recruitment form */}
-                <a
-                  href="https://forms.gle/DBpxkxZPwDvoUMg68"
-                  className="btn btn-success"
-                >
-                  Fill out the Recruitment Form
-                </a>
-              </div>
-            </div>
-          </div>
-
           <div className="row">
             {links.map((item) => {
               return (
