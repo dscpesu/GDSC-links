@@ -73,14 +73,22 @@ export default function Home() {
       <main className="mt-4">
         <div className="content container">
           <div className="row justify-content-center align-items-center">
-            <div className="w-full h-fit m-3">
+            <div className="flex w-full h-fit m-3">
               <Image
                 src="./assets/Hackfest-banner.webp"
-                alt=""
-                width={1280}
-                height={325}
+                alt="Hackfest"
+                layout="responsive"
+                objectFit="cover"
+                height={100}
+                width={100}
+                // width="0"
+                // height="0"
+                // sizes="100vw"
+                // className="w-full h-auto"
+                // className="w-100 h-100"
               />
             </div>
+
             <div className="col-md-8 col-12">
               <h2 className="text-center mb-4">
                 {/* Heading for Recruitments */}
@@ -93,10 +101,10 @@ export default function Home() {
               <div className="text-center">
                 {/* Button for the recruitment form */}
                 <a
-                  href="https://chat.whatsapp.com/IHvpmXAMptz7AiDoJM4UJN"
+                  href="https://gdsc.community.dev/events/details/developer-student-clubs-pes-university-bengaluru-presents-foss-101/"
                   className="btn btn-success"
                 >
-                  Stay Tuned for Updates
+                  Register For Workshop to be part of HackFest
                 </a>
               </div>
             </div>
