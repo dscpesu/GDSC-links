@@ -5,7 +5,7 @@ const links = [
     about:
       'Join Us on an 🤚🏼Hands-on Workshop to Make your First Open Source Contribution (Limited Seats Available)',
     url: 'https://gdsc.community.dev/events/details/developer-student-clubs-pes-university-bengaluru-presents-foss-101/',
-    img: require('../public/assets/Foss101-Website.png'),
+    img: require('../public/assets/Foss101-Website.webp'),
   },
   {
     id: 2,

@@ -75,7 +75,7 @@ export default function Home() {
           <div className="row justify-content-center align-items-center">
             <div className="w-full h-fit m-3">
               <Image
-                src="./assets/Hackfest-banner.png"
+                src="./assets/Hackfest-banner.webp"
                 alt=""
                 width={1280}
                 height={325}
