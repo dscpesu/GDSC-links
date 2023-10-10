@@ -1,11 +1,11 @@
 const links = [
   {
     id: 1,
-    name: 'Foss101',
+    name: 'Foss 101',
     about:
-      'Join Us to Make your First Open Source Contribution',
+      'Join Us on an 🤚🏼Hands-on Workshop to Make your First Open Source Contribution (Limited Seats Available)',
     url: 'https://gdsc.community.dev/events/details/developer-student-clubs-pes-university-bengaluru-presents-foss-101/',
-    img: require('../public/assets/Foss101.png'),
+    img: require('../public/assets/Foss101-Website.png'),
   },
   {
     id: 2,
@@ -39,7 +39,6 @@ const links = [
     url: 'https://github.com/dscpesu',
     img: require('../public/assets/github.webp'),
   },
-
 ];
 
 export default links;

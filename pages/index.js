@@ -71,6 +71,37 @@ export default function Home() {
       </nav>
 
       <main className="mt-4">
+        <div className="content container">
+          <div className="row justify-content-center align-items-center">
+            <div className="w-full h-fit m-3">
+              <Image
+                src="./assets/Hackfest-banner.png"
+                alt=""
+                width={1280}
+                height={325}
+              />
+            </div>
+            <div className="col-md-8 col-12">
+              <h2 className="text-center mb-4">
+                {/* Heading for Recruitments */}
+                HackFest 2023 is Starting Soon
+              </h2>
+              <p className="text-center">
+                Follow us on social media and join the WhatsApp community group
+                as <br></br> we&rsquo;ll be communicating the updates there.
+              </p>
+              <div className="text-center">
+                {/* Button for the recruitment form */}
+                <a
+                  href="https://chat.whatsapp.com/IHvpmXAMptz7AiDoJM4UJN"
+                  className="btn btn-success"
+                >
+                  Stay Tuned for Updates
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="row">
             {links.map((item) => {
               return (
