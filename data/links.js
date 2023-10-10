@@ -1,11 +1,11 @@
 const links = [
   {
     id: 1,
-    name: 'Join the Adventure: Recruitments',
+    name: 'Foss101',
     about:
-      'Elevate your skills by applying for our exclusive recruitment drive.',
-    url: 'https://forms.gle/DBpxkxZPwDvoUMg68',
-    img: require('../public/assets/gdsc.webp'),
+      'Join Us to Make your First Open Source Contribution',
+    url: 'https://gdsc.community.dev/events/details/developer-student-clubs-pes-university-bengaluru-presents-foss-101/',
+    img: require('../public/assets/Foss101.png'),
   },
   {
     id: 2,
