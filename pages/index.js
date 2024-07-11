@@ -74,20 +74,6 @@ export default function Home() {
         <div className="content container">
           <div className="row justify-content-center align-items-center">
             <div className="flex w-full h-fit m-3">
-            //   <Image
-            //     src="./assets/Hackfest-banner.webp"
-            //     alt="Hackfest"
-            //     layout="responsive"
-            //     objectFit="cover"
-            //     height={100}
-            //     width={100}
-            //     // width="0"
-            //     // height="0"
-            //     // sizes="100vw"
-            //     // className="w-full h-auto"
-            //     // className="w-100 h-100"
-            //   />
-            // </div>
 
             <div className="col-md-8 col-12">
               <h2 className="text-center mb-4">
