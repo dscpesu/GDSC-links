@@ -74,25 +74,25 @@ export default function Home() {
         <div className="content container">
           <div className="row justify-content-center align-items-center">
             <div className="flex w-full h-fit m-3">
-              <Image
-                src="./assets/Hackfest-banner.webp"
-                alt="Hackfest"
-                layout="responsive"
-                objectFit="cover"
-                height={100}
-                width={100}
-                // width="0"
-                // height="0"
-                // sizes="100vw"
-                // className="w-full h-auto"
-                // className="w-100 h-100"
-              />
-            </div>
+            //   <Image
+            //     src="./assets/Hackfest-banner.webp"
+            //     alt="Hackfest"
+            //     layout="responsive"
+            //     objectFit="cover"
+            //     height={100}
+            //     width={100}
+            //     // width="0"
+            //     // height="0"
+            //     // sizes="100vw"
+            //     // className="w-full h-auto"
+            //     // className="w-100 h-100"
+            //   />
+            // </div>
 
             <div className="col-md-8 col-12">
               <h2 className="text-center mb-4">
                 {/* Heading for Recruitments */}
-                HackFest 2023 is Starting Soon
+                Google Cloud Arcade Facilitator Program 24 is starting soon
               </h2>
               <p className="text-center">
                 Follow us on social media and join the WhatsApp community group
@@ -101,10 +101,10 @@ export default function Home() {
               <div className="text-center">
                 {/* Button for the recruitment form */}
                 <a
-                  href="https://gdsc.community.dev/events/details/developer-student-clubs-pes-university-bengaluru-presents-foss-101/"
+                  href="https://chat.whatsapp.com/FvD81k51RO7Co3Okbm9q0Y"
                   className="btn btn-success"
                 >
-                  Register For Workshop to be part of HackFest
+                  Join Whatsapp Group
                 </a>
               </div>
             </div>
