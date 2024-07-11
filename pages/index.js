@@ -72,26 +72,26 @@ export default function Home() {
 
       <main className="mt-4">
         <div className="content container">
-          <div className="row justify-content-center align-items-center">
-            <div className="flex w-full h-fit m-3">
-
-            <div className="col-md-8 col-12">
-              <h2 className="text-center mb-4">
-                {/* Heading for Recruitments */}
-                Google Cloud Arcade Facilitator Program 24 is starting soon
-              </h2>
-              <p className="text-center">
-                Follow us on social media and join the WhatsApp community group
-                as <br></br> we&rsquo;ll be communicating the updates there.
-              </p>
-              <div className="text-center">
-                {/* Button for the recruitment form */}
-                <a
-                  href="https://chat.whatsapp.com/FvD81k51RO7Co3Okbm9q0Y"
-                  className="btn btn-success"
-                >
-                  Join Whatsapp Group
-                </a>
+          <div className="container d-flex justify-content-center align-items-center h-fit">
+            <div className="row justify-content-center align-items-center w-100">
+              <div className="col-md-8 col-12">
+                <h2 className="text-center mb-4">
+                  {/* Heading for Recruitments */}
+                  Google Cloud Arcade Facilitator Program 24 is starting soon
+                </h2>
+                <p className="text-center">
+                  Follow us on social media and join the WhatsApp community
+                  group as <br /> we’ll be communicating the updates there.
+                </p>
+                <div className="text-center">
+                  {/* Button for the recruitment form */}
+                  <a
+                    href="https://chat.whatsapp.com/FvD81k51RO7Co3Okbm9q0Y"
+                    className="btn btn-success"
+                  >
+                    Join Whatsapp Group
+                  </a>
+                </div>
               </div>
             </div>
           </div>
